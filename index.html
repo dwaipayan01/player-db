@@ -12,19 +12,30 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 text-center">
-                <h1>left side</h1>
+    <div class="container w-100 mx-auto">
+        <div class="row w-100 mx-auto">
+            <div class="col-lg-6  ">
+                <h1 class="text-center">left side</h1>
                 <div class="input-group mb-3 w-50 mx-auto">
                     <input id="search-box" type="text" class="form-control" placeholder="Search by your player name"
                         aria-label="Recipient's username" aria-describedby="button-addon2">
                     <button onclick="showResult()" itemid="search-btn" class="btn btn-outline-secondary ms-2"
                         type="button" id="button-addon2">Search</button>
                 </div>
+                <p class="error-message text-danger" id="error">Please write valid player name</p>
+                <div id="main-area" class="main-area">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 ">
-                <h2>right side</h2>
+            <div class="col-lg-6">
+                <h2 class="text-center">right side</h2>
+                <img id="male" class="w-50 display" src="images/virat.jpg" alt="">
+                <img id="female" class="w-50 display" src="images/alex.jpg" alt="">
+                <div id="details-area">
+
+                </div>
             </div>
         </div>
     </div>

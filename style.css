@@ -1,0 +1,14 @@
+#male{
+    display: none;
+}
+#female{
+    display: none;
+}
+.display{
+    margin-left: 150px;
+    height: 200px;
+}
+.error-message{
+    display: none;
+    margin-left: 130px;
+}
